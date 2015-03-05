@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ruby-getting-started
 
 A barebones Rails app, which can easily be deployed to Heroku.
@@ -34,7 +33,17 @@ For more information about using Ruby on Heroku, see these Dev Center articles:
 
 - [Ruby on Heroku](https://devcenter.heroku.com/categories/ruby)
 
-=======
+
 # heroku_pushnotification_sample
 This is sample of heroku-push-notification as iOS and Android
->>>>>>> 268d10036d59a5a3108bbeaa87931859bcc317c3
+
+# what is purpose
+I want to develop push-notification on Heroku.
+so i will use Zefo Push?.It is plugin of push notification which heroku has.
+
+## Reference of smp-push-notification for iOS and Android
+https://devcenter.heroku.com/articles/zeropush
+http://blog.morizotter.com/2014/07/20/heroku-rails-push-to-ios/
+
+
+
