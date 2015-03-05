@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ruby-getting-started
 
 A barebones Rails app, which can easily be deployed to Heroku.
@@ -33,3 +34,7 @@ For more information about using Ruby on Heroku, see these Dev Center articles:
 
 - [Ruby on Heroku](https://devcenter.heroku.com/categories/ruby)
 
+=======
+# heroku_pushnotification_sample
+This is sample of heroku-push-notification as iOS and Android
+>>>>>>> 268d10036d59a5a3108bbeaa87931859bcc317c3
