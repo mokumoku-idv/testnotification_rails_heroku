@@ -55,7 +55,9 @@ I'm referencing the below link.
 * 
 
 ## ZeroPushの特徴
+* Push通知を楽に実装できるプラグイン
 * サーバサイドはPHP,Ruby,Pythonが使える
 * 通常のAPNSより、設定することが少ない。（証明書の作成も含めて）
+* Android、iOSと複数アプリケーション同時にセット可能みたい
 
 
