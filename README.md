@@ -45,6 +45,9 @@ so i will use Zefo Push?.It is plugin of push notification which heroku has.
 * https://devcenter.heroku.com/articles/zeropush
 * http://blog.morizotter.com/2014/07/20/heroku-rails-push-to-ios/
 
+## Impotant thing
+Heroku can use push notification.But Heroku has utility plugin for push notification,ZeroPush.
+
 ## How to set for Zero Push
 
 I'm referencing the below link.
