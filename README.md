@@ -42,8 +42,12 @@ I want to develop push-notification on Heroku.
 so i will use Zefo Push?.It is plugin of push notification which heroku has.
 
 ## Reference of smp-push-notification for iOS and Android
-https://devcenter.heroku.com/articles/zeropush
-http://blog.morizotter.com/2014/07/20/heroku-rails-push-to-ios/
+* https://devcenter.heroku.com/articles/zeropush
+* http://blog.morizotter.com/2014/07/20/heroku-rails-push-to-ios/
 
+## How to set for Zero Push
+
+I'm referencing the below link.
+* https://zeropush.com/documentation/generating_certificates#development
 
 
