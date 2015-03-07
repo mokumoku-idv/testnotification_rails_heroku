@@ -62,4 +62,8 @@ I'm referencing the below link.
 
 ### 開発イメージ
 * バッチからpush通知を送信するイメージなので、binディレクトリにバッチを作成する
+* 
+
+## 参考
+* https://devcenter.heroku.com/articles/zeropush
 
