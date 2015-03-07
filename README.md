@@ -52,5 +52,10 @@ Heroku can use push notification.But Heroku has utility plugin for push notifica
 
 I'm referencing the below link.
 * https://zeropush.com/documentation/generating_certificates#development
+* 
+
+## ZeroPushの特徴
+* サーバサイドはPHP,Ruby,Pythonが使える
+* 通常のAPNSより、設定することが少ない。（証明書の作成も含めて）
 
 
