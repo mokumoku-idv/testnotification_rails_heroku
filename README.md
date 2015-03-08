@@ -52,7 +52,7 @@ Heroku can use push notification.But Heroku has utility plugin for push notifica
 
 I'm referencing the below link.
 * https://zeropush.com/documentation/generating_certificates#development
-* 
+* https://zeropush.com/documentation/readme/ZeroPush-iOS
 
 ## ZeroPushの特徴
 * Push通知を楽に実装できるプラグイン
@@ -61,8 +61,35 @@ I'm referencing the below link.
 * Android、iOSと複数アプリケーション同時にセット可能みたい
 
 ### 開発イメージ
-* バッチからpush通知を送信するイメージなので、binディレクトリにバッチを作成する
+* バッチは以下を参考に作成
+* http://qiita.com/3yatsu/items/416411c0a8f696dbf99e
+
+## ZeroPush以外の方法
+http://blog.morizotter.com/2014/07/20/heroku-rails-push-to-ios/
+あとで試す
+
+## To run push batch on Heroku
+```
+heroku run rails runner -e development batch/test_notification.rb
+```
+* heroku環境で動かす際は、-eオプション使わないと、デフォルトproductionを読みに行く
+
+ 
+## Herokuでcron
+* プラグインで可能っぽいけど、今回はclockworkを使ってみる（つまりプラグインは使わない）
+* プラグインはheroku scheduler？かな
+* http://qiita.com/kyohei8/items/5a7d7db3838728a04140
+
+
+## what is heroku dyno
+* heroku上のアプリケーションを動かすスペースみたいなもの
+１スペースに割り当てられるスペックは決まっていて、追加することも可能です
+* http://thinkit.co.jp/story/2011/03/23/2060?page=0,1
 * 
+
+# client application
+* https://github.com/shiratsu/TestNotification
+
 
 ## 参考
 * https://devcenter.heroku.com/articles/zeropush
