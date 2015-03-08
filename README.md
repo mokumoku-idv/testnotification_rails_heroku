@@ -68,6 +68,13 @@ I'm referencing the below link.
 http://blog.morizotter.com/2014/07/20/heroku-rails-push-to-ios/
 あとで試す
 
+## To run push batch on Heroku
+```
+heroku run rails runner -e development batch/test_notification.rb
+```
+* heroku環境で動かす際は、-eオプション使わないと、デフォルトproductionを読みに行く
+
+
 ## 参考
 * https://devcenter.heroku.com/articles/zeropush
 
