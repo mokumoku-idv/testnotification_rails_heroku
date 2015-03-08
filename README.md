@@ -52,7 +52,7 @@ Heroku can use push notification.But Heroku has utility plugin for push notifica
 
 I'm referencing the below link.
 * https://zeropush.com/documentation/generating_certificates#development
-* 
+* https://zeropush.com/documentation/readme/ZeroPush-iOS
 
 ## ZeroPushの特徴
 * Push通知を楽に実装できるプラグイン
@@ -61,8 +61,8 @@ I'm referencing the below link.
 * Android、iOSと複数アプリケーション同時にセット可能みたい
 
 ### 開発イメージ
-* バッチからpush通知を送信するイメージなので、binディレクトリにバッチを作成する
-* 
+* バッチは以下を参考に作成
+* http://qiita.com/3yatsu/items/416411c0a8f696dbf99e
 
 ## 参考
 * https://devcenter.heroku.com/articles/zeropush
