@@ -73,6 +73,12 @@ http://blog.morizotter.com/2014/07/20/heroku-rails-push-to-ios/
 heroku run rails runner -e development batch/test_notification.rb
 ```
 * heroku環境で動かす際は、-eオプション使わないと、デフォルトproductionを読みに行く
+* 
+## Herokuでcron
+* プラグインで可能っぽいけど、今回はclockworkを使ってる
+* プラグインはheroku scheduler？かな
+* http://qiita.com/kyohei8/items/5a7d7db3838728a04140
+
 
 ## what is heroku dyno
 * heroku上のアプリケーションを動かすスペースみたいなもの
