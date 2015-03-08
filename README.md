@@ -64,6 +64,10 @@ I'm referencing the below link.
 * バッチは以下を参考に作成
 * http://qiita.com/3yatsu/items/416411c0a8f696dbf99e
 
+## ZeroPush以外の方法
+http://blog.morizotter.com/2014/07/20/heroku-rails-push-to-ios/
+あとで試す
+
 ## 参考
 * https://devcenter.heroku.com/articles/zeropush
 
