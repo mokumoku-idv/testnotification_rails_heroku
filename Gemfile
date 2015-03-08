@@ -33,6 +33,8 @@ gem 'puma'
 
 gem 'zero_push'
 
+gem 'clockwork'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
