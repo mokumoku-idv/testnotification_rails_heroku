@@ -74,6 +74,10 @@ heroku run rails runner -e development batch/test_notification.rb
 ```
 * heroku環境で動かす際は、-eオプション使わないと、デフォルトproductionを読みに行く
 
+## what is heroku dyno
+* heroku上のアプリケーションを動かすスペースみたいなもの
+１スペースに割り当てられるスペックは決まっていて、追加することも可能です
+* http://thinkit.co.jp/story/2011/03/23/2060?page=0,1
 
 ## 参考
 * https://devcenter.heroku.com/articles/zeropush
