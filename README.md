@@ -89,7 +89,7 @@ heroku run rails runner -e development batch/test_notification.rb
 
 # client application
 * https://github.com/shiratsu/TestNotification
-
+* https://github.com/shiratsu/SampleZeroPush
 
 ## 参考
 * https://devcenter.heroku.com/articles/zeropush
